@@ -121,7 +121,7 @@ public class GCPDocAILayoutProcessorSample {
             ProcessOptions processOptions = ProcessOptions.newBuilder()
                     .setLayoutConfig(ProcessOptions.LayoutConfig.newBuilder()
                             .setChunkingConfig(ProcessOptions.LayoutConfig.ChunkingConfig.newBuilder()
-                                    .setChunkSize(1000)
+                                    .setChunkSize(50)
                                     .setIncludeAncestorHeadings(true)
                                     .build())
                             .build())

@@ -1,0 +1,922 @@
+8:52:56 AM: Executing ':GCPDocAILayoutProcessorSample.main()'...
+
+> Task :compileJava
+> Task :processResources
+> Task :classes
+
+> Task :GCPDocAILayoutProcessorSample.main()
+File Path: /Users/satyaanumolu/POCs/langchain4j_tutorials/GCPDocAI/build/resources/main/sample-layout.pdf
+Document Text: blocks {
+  block_id: "1"
+  text_block {
+    text: "This is the header of the document."
+    type: "paragraph"
+  }
+  page_span {
+    page_start: 1
+    page_end: 1
+  }
+}
+blocks {
+  block_id: "2"
+  text_block {
+    text: "This is title"
+    type: "heading-1"
+    blocks {
+      block_id: "3"
+      text_block {
+        text: "3. Others"
+        type: "heading-2"
+        blocks {
+          block_id: "4"
+          text_block {
+            text: "1. Text"
+            type: "paragraph"
+          }
+          page_span {
+            page_start: 1
+            page_end: 1
+          }
+        }
+        blocks {
+          block_id: "5"
+          text_block {
+            text: "Latin refers to an ancient Italic language originating in the region of Latium in ancient Rome."
+            type: "paragraph"
+          }
+          page_span {
+            page_start: 1
+            page_end: 1
+          }
+        }
+        blocks {
+          block_id: "6"
+          text_block {
+            text: "Al Document Intelligence is an Al service that applies advanced machine learning to extract text, key-value pairs, tables, and structures from documents automatically and accurately:"
+            type: "paragraph"
+          }
+          page_span {
+            page_start: 1
+            page_end: 1
+          }
+        }
+        blocks {
+          block_id: "7"
+          text_block {
+            text: "2. Page Objects"
+            type: "paragraph"
+          }
+          page_span {
+            page_start: 1
+            page_end: 1
+          }
+        }
+        blocks {
+          block_id: "8"
+          text_block {
+            text: "clear"
+            type: "paragraph"
+          }
+          page_span {
+            page_start: 1
+            page_end: 1
+          }
+        }
+        blocks {
+          block_id: "9"
+          text_block {
+            text: "2.1 Table"
+            type: "heading-3"
+            blocks {
+              block_id: "10"
+              text_block {
+                text: "precise"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "11"
+              text_block {
+                text: "Here\'s a sample table below, designed to"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "12"
+              text_block {
+                text: "vague"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "13"
+              text_block {
+                text: "be simple for easy understand and quick"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "14"
+              text_block {
+                text: "coherent"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "15"
+              text_block {
+                text: "reference."
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "16"
+              table_block {
+                body_rows {
+                  cells {
+                    blocks {
+                      block_id: "17"
+                      text_block {
+                        text: "Name"
+                        type: "paragraph"
+                      }
+                      page_span {
+                        page_start: 1
+                        page_end: 1
+                      }
+                    }
+                    row_span: 1
+                    col_span: 1
+                  }
+                  cells {
+                    blocks {
+                      block_id: "18"
+                      text_block {
+                        text: "Corp"
+                        type: "paragraph"
+                      }
+                      page_span {
+                        page_start: 1
+                        page_end: 1
+                      }
+                    }
+                    row_span: 1
+                    col_span: 1
+                  }
+                  cells {
+                    blocks {
+                      block_id: "19"
+                      text_block {
+                        text: "Remark"
+                        type: "paragraph"
+                      }
+                      page_span {
+                        page_start: 1
+                        page_end: 1
+                      }
+                    }
+                    row_span: 1
+                    col_span: 1
+                  }
+                }
+                body_rows {
+                  cells {
+                    blocks {
+                      block_id: "20"
+                      text_block {
+                        text: "Foo"
+                        type: "paragraph"
+                      }
+                      page_span {
+                        page_start: 1
+                        page_end: 1
+                      }
+                    }
+                    row_span: 1
+                    col_span: 1
+                  }
+                  cells {
+                    blocks {
+                      block_id: "21"
+                      text_block {
+                        type: "paragraph"
+                      }
+                      page_span {
+                        page_start: 1
+                        page_end: 1
+                      }
+                    }
+                    row_span: 1
+                    col_span: 1
+                  }
+                  cells {
+                    blocks {
+                      block_id: "22"
+                      text_block {
+                        type: "paragraph"
+                      }
+                      page_span {
+                        page_start: 1
+                        page_end: 1
+                      }
+                    }
+                    row_span: 1
+                    col_span: 1
+                  }
+                }
+                body_rows {
+                  cells {
+                    blocks {
+                      block_id: "23"
+                      text_block {
+                        text: "Bar"
+                        type: "paragraph"
+                      }
+                      page_span {
+                        page_start: 1
+                        page_end: 1
+                      }
+                    }
+                    row_span: 1
+                    col_span: 1
+                  }
+                  cells {
+                    blocks {
+                      block_id: "24"
+                      text_block {
+                        text: "Microsoft"
+                        type: "paragraph"
+                      }
+                      page_span {
+                        page_start: 1
+                        page_end: 1
+                      }
+                    }
+                    row_span: 1
+                    col_span: 1
+                  }
+                  cells {
+                    blocks {
+                      block_id: "25"
+                      text_block {
+                        text: "Dummy"
+                        type: "paragraph"
+                      }
+                      page_span {
+                        page_start: 1
+                        page_end: 1
+                      }
+                    }
+                    row_span: 1
+                    col_span: 1
+                  }
+                }
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "26"
+              text_block {
+                text: "Table 1: This is a dummy table"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "27"
+              text_block {
+                text: "2.2. Figure"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "28"
+              text_block {
+                text: "Values 500"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "29"
+              text_block {
+                text: "400"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "30"
+              text_block {
+                text: "300"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "31"
+              text_block {
+                text: "Figure 1: Here is a figure with text"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "32"
+              text_block {
+                text: "200"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "33"
+              text_block {
+                text: "200"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "34"
+              text_block {
+                text: "100"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "35"
+              text_block {
+                text: "300"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "36"
+              text_block {
+                text: "450"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "37"
+              text_block {
+                text: "400"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "38"
+              text_block {
+                text: "350"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "39"
+              text_block {
+                text: "250"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "40"
+              text_block {
+                text: "0"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "41"
+              text_block {
+                text: "Jan"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "42"
+              text_block {
+                text: "Feb"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "43"
+              text_block {
+                text: "Mar"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "44"
+              text_block {
+                text: "Apr"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "45"
+              text_block {
+                text: "May"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "46"
+              text_block {
+                text: "Jun Months"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "47"
+              text_block {
+                text: "\342\230\221"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "48"
+              text_block {
+                text: "\342\230\220 Incomprehensible"
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "49"
+              text_block {
+                text: "Turn documents into usable data and shift your focus to acting on information rather than compiling it. Start with prebuilt models or create custom models tailored to your documents both on premises and in the cloud with the Al Document Intelligence studio or SDK."
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "50"
+              text_block {
+                text: "Learn how to accelerate your business processes by automating text extraction with Al Document Intelligence. This webinar features hands-on demos for key use cases such as document processing, knowledge mining, and industry-specific Al model customization."
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "51"
+              text_block {
+                text: "This is the footer of the document."
+                type: "paragraph"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+            blocks {
+              block_id: "52"
+              text_block {
+                text: "1 | Page"
+                type: "footer"
+              }
+              page_span {
+                page_start: 1
+                page_end: 1
+              }
+            }
+          }
+          page_span {
+            page_start: 1
+            page_end: 1
+          }
+        }
+      }
+      page_span {
+        page_start: 1
+        page_end: 1
+      }
+    }
+  }
+  page_span {
+    page_start: 1
+    page_end: 1
+  }
+}
+
+Document Layout Info:
+Block ID: 1
+Text: This is the header of the document.
+Type: paragraph
+Page Span: 1 to 1
+------------------------------
+Block ID: 2
+Text: This is title
+Type: heading-1
+Nested Blocks:
+  Block ID: 3
+  Text: 3. Others
+  Type: heading-2
+  Nested Blocks:
+    Block ID: 4
+    Text: 1. Text
+    Type: paragraph
+    Page Span: 1 to 1
+    ------------------------------
+    Block ID: 5
+    Text: Latin refers to an ancient Italic language originating in the region of Latium in ancient Rome.
+    Type: paragraph
+    Page Span: 1 to 1
+    ------------------------------
+    Block ID: 6
+    Text: Al Document Intelligence is an Al service that applies advanced machine learning to extract text, key-value pairs, tables, and structures from documents automatically and accurately:
+    Type: paragraph
+    Page Span: 1 to 1
+    ------------------------------
+    Block ID: 7
+    Text: 2. Page Objects
+    Type: paragraph
+    Page Span: 1 to 1
+    ------------------------------
+    Block ID: 8
+    Text: clear
+    Type: paragraph
+    Page Span: 1 to 1
+    ------------------------------
+    Block ID: 9
+    Text: 2.1 Table
+    Type: heading-3
+    Nested Blocks:
+      Block ID: 10
+      Text: precise
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 11
+      Text: Here's a sample table below, designed to
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 12
+      Text: vague
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 13
+      Text: be simple for easy understand and quick
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 14
+      Text: coherent
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 15
+      Text: reference.
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 16
+      Table Block:
+      Header Rows:
+      Body Rows:
+        Body Row: Name | Corp | Remark |
+        Body Row: Foo |  |  |
+        Body Row: Bar | Microsoft | Dummy |
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 26
+      Text: Table 1: This is a dummy table
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 27
+      Text: 2.2. Figure
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 28
+      Text: Values 500
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 29
+      Text: 400
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 30
+      Text: 300
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 31
+      Text: Figure 1: Here is a figure with text
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 32
+      Text: 200
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 33
+      Text: 200
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 34
+      Text: 100
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 35
+      Text: 300
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 36
+      Text: 450
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 37
+      Text: 400
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 38
+      Text: 350
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 39
+      Text: 250
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 40
+      Text: 0
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 41
+      Text: Jan
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 42
+      Text: Feb
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 43
+      Text: Mar
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 44
+      Text: Apr
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 45
+      Text: May
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 46
+      Text: Jun Months
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 47
+      Text: ☑
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 48
+      Text: ☐ Incomprehensible
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 49
+      Text: Turn documents into usable data and shift your focus to acting on information rather than compiling it. Start with prebuilt models or create custom models tailored to your documents both on premises and in the cloud with the Al Document Intelligence studio or SDK.
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 50
+      Text: Learn how to accelerate your business processes by automating text extraction with Al Document Intelligence. This webinar features hands-on demos for key use cases such as document processing, knowledge mining, and industry-specific Al model customization.
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 51
+      Text: This is the footer of the document.
+      Type: paragraph
+      Page Span: 1 to 1
+      ------------------------------
+      Block ID: 52
+      Text: 1 | Page
+      Type: footer
+      Page Span: 1 to 1
+      ------------------------------
+    Page Span: 1 to 1
+    ------------------------------
+  Page Span: 1 to 1
+  ------------------------------
+Page Span: 1 to 1
+------------------------------
+Document Chunk Info:
+Chunk ID: c1
+Chunk Text: This is the header of the document.
+Chunk Page Span: 1 to 1
+------------------------------
+Chunk ID: c2
+Chunk Text: # This is title
+
+## 3. Others
+
+1. Text Latin refers to an ancient Italic language originating in the region of Latium in ancient Rome. Al Document Intelligence is an Al service that applies advanced machine learning to extract text, key-value pairs, tables, and structures from documents automatically and accurately:
+Chunk Page Span: 1 to 1
+------------------------------
+Chunk ID: c3
+Chunk Text: # This is title
+
+## 3. Others
+
+2. Page Objects clear
+Chunk Page Span: 1 to 1
+------------------------------
+Chunk ID: c4
+Chunk Text: # This is title
+
+## 3. Others
+
+### 2.1 Table
+
+precise Here's a sample table below, designed to vague be simple for easy understand and quick coherent reference.
+
+|-|-|-|
+| Name | Corp | Remark |
+| Foo |  |  |
+| Bar | Microsoft | Dummy |
+
+
+Chunk Page Span: 1 to 1
+------------------------------
+Chunk ID: c5
+Chunk Text: # This is title
+
+## 3. Others
+
+### 2.1 Table
+
+Table 1: This is a dummy table 2.2. Figure Values 500 400 300 Figure 1: Here is a figure with text 200 200 100 300 450 400 350 250 0 Jan Feb Mar Apr May Jun Months ☑ ☐ Incomprehensible
+Chunk Page Span: 1 to 1
+------------------------------
+Chunk ID: c6
+Chunk Text: # This is title
+
+## 3. Others
+
+### 2.1 Table
+
+Turn documents into usable data and shift your focus to acting on information rather than compiling it. Start with prebuilt models or create custom models tailored to your documents both on premises and in the cloud with the Al Document Intelligence studio or SDK.
+Chunk Page Span: 1 to 1
+------------------------------
+Chunk ID: c7
+Chunk Text: # This is title
+
+## 3. Others
+
+### 2.1 Table
+
+Learn how to accelerate your business processes by automating text extraction with Al Document Intelligence. This webinar features hands-on demos for key use cases such as document processing, knowledge mining, and industry-specific Al model customization.
+Chunk Page Span: 1 to 1
+------------------------------
+Chunk ID: c8
+Chunk Text: # This is title
+
+## 3. Others
+
+### 2.1 Table
+
+This is the footer of the document.
+Chunk Page Span: 1 to 1
+------------------------------
+
+

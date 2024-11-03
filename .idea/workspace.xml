@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baa583a3-3753-492a-8015-4afdbb4b3ff3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAILayoutProcessorSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAIOCRProcessorSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/JSONParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/response.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/results/layoutparser.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample-layout.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/results/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAILayoutProcessorSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAILayoutProcessorSample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
