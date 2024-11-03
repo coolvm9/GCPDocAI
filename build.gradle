@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group = 'dev.fusion'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation platform('com.google.cloud:libraries-bom:26.50.0')
+    implementation 'com.google.cloud:google-cloud-document-ai'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.1'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}

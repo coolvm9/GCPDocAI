@@ -1,0 +1,567 @@
+{
+  "documentLayout": {
+    "blocks": [{
+      "blockId": "1",
+      "textBlock": {
+        "text": "This is the header of the document.",
+        "type": "paragraph"
+      },
+      "pageSpan": {
+        "pageStart": 1,
+        "pageEnd": 1
+      }
+    }, {
+      "blockId": "2",
+      "textBlock": {
+        "text": "This is title",
+        "type": "heading-1",
+        "blocks": [{
+          "blockId": "3",
+          "textBlock": {
+            "text": "3. Others",
+            "type": "heading-2",
+            "blocks": [{
+              "blockId": "4",
+              "textBlock": {
+                "text": "1. Text",
+                "type": "paragraph"
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              }
+            }, {
+              "blockId": "5",
+              "textBlock": {
+                "text": "Latin refers to an ancient Italic language originating in the region of Latium in ancient Rome.",
+                "type": "paragraph"
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              }
+            }, {
+              "blockId": "6",
+              "textBlock": {
+                "text": "Al Document Intelligence is an Al service that applies advanced machine learning to extract text, key-value pairs, tables, and structures from documents automatically and accurately:",
+                "type": "paragraph"
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              }
+            }, {
+              "blockId": "7",
+              "textBlock": {
+                "text": "2. Page Objects",
+                "type": "paragraph"
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              }
+            }, {
+              "blockId": "8",
+              "textBlock": {
+                "text": "clear",
+                "type": "paragraph"
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              }
+            }, {
+              "blockId": "9",
+              "textBlock": {
+                "text": "2.1 Table",
+                "type": "heading-3",
+                "blocks": [{
+                  "blockId": "10",
+                  "textBlock": {
+                    "text": "precise",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "11",
+                  "textBlock": {
+                    "text": "Here\u0027s a sample table below, designed to",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "12",
+                  "textBlock": {
+                    "text": "vague",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "13",
+                  "textBlock": {
+                    "text": "be simple for easy understand and quick",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "14",
+                  "textBlock": {
+                    "text": "coherent",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "15",
+                  "textBlock": {
+                    "text": "reference.",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "16",
+                  "tableBlock": {
+                    "bodyRows": [{
+                      "cells": [{
+                        "blocks": [{
+                          "blockId": "17",
+                          "textBlock": {
+                            "text": "Name",
+                            "type": "paragraph"
+                          },
+                          "pageSpan": {
+                            "pageStart": 1,
+                            "pageEnd": 1
+                          }
+                        }],
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      }, {
+                        "blocks": [{
+                          "blockId": "18",
+                          "textBlock": {
+                            "text": "Corp",
+                            "type": "paragraph"
+                          },
+                          "pageSpan": {
+                            "pageStart": 1,
+                            "pageEnd": 1
+                          }
+                        }],
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      }, {
+                        "blocks": [{
+                          "blockId": "19",
+                          "textBlock": {
+                            "text": "Remark",
+                            "type": "paragraph"
+                          },
+                          "pageSpan": {
+                            "pageStart": 1,
+                            "pageEnd": 1
+                          }
+                        }],
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      }]
+                    }, {
+                      "cells": [{
+                        "blocks": [{
+                          "blockId": "20",
+                          "textBlock": {
+                            "text": "Foo",
+                            "type": "paragraph"
+                          },
+                          "pageSpan": {
+                            "pageStart": 1,
+                            "pageEnd": 1
+                          }
+                        }],
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      }, {
+                        "blocks": [{
+                          "blockId": "21",
+                          "textBlock": {
+                            "type": "paragraph"
+                          },
+                          "pageSpan": {
+                            "pageStart": 1,
+                            "pageEnd": 1
+                          }
+                        }],
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      }, {
+                        "blocks": [{
+                          "blockId": "22",
+                          "textBlock": {
+                            "type": "paragraph"
+                          },
+                          "pageSpan": {
+                            "pageStart": 1,
+                            "pageEnd": 1
+                          }
+                        }],
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      }]
+                    }, {
+                      "cells": [{
+                        "blocks": [{
+                          "blockId": "23",
+                          "textBlock": {
+                            "text": "Bar",
+                            "type": "paragraph"
+                          },
+                          "pageSpan": {
+                            "pageStart": 1,
+                            "pageEnd": 1
+                          }
+                        }],
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      }, {
+                        "blocks": [{
+                          "blockId": "24",
+                          "textBlock": {
+                            "text": "Microsoft",
+                            "type": "paragraph"
+                          },
+                          "pageSpan": {
+                            "pageStart": 1,
+                            "pageEnd": 1
+                          }
+                        }],
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      }, {
+                        "blocks": [{
+                          "blockId": "25",
+                          "textBlock": {
+                            "text": "Dummy",
+                            "type": "paragraph"
+                          },
+                          "pageSpan": {
+                            "pageStart": 1,
+                            "pageEnd": 1
+                          }
+                        }],
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      }]
+                    }]
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "26",
+                  "textBlock": {
+                    "text": "Table 1: This is a dummy table",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "27",
+                  "textBlock": {
+                    "text": "2.2. Figure",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "28",
+                  "textBlock": {
+                    "text": "Values 500",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "29",
+                  "textBlock": {
+                    "text": "400",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "30",
+                  "textBlock": {
+                    "text": "300",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "31",
+                  "textBlock": {
+                    "text": "Figure 1: Here is a figure with text",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "32",
+                  "textBlock": {
+                    "text": "200",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "33",
+                  "textBlock": {
+                    "text": "200",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "34",
+                  "textBlock": {
+                    "text": "100",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "35",
+                  "textBlock": {
+                    "text": "300",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "36",
+                  "textBlock": {
+                    "text": "450",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "37",
+                  "textBlock": {
+                    "text": "400",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "38",
+                  "textBlock": {
+                    "text": "350",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "39",
+                  "textBlock": {
+                    "text": "250",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "40",
+                  "textBlock": {
+                    "text": "0",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "41",
+                  "textBlock": {
+                    "text": "Jan",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "42",
+                  "textBlock": {
+                    "text": "Feb",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "43",
+                  "textBlock": {
+                    "text": "Mar",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "44",
+                  "textBlock": {
+                    "text": "Apr",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "45",
+                  "textBlock": {
+                    "text": "May",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "46",
+                  "textBlock": {
+                    "text": "Jun Months",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "47",
+                  "textBlock": {
+                    "text": "☑",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "48",
+                  "textBlock": {
+                    "text": "☐ Incomprehensible",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "49",
+                  "textBlock": {
+                    "text": "Turn documents into usable data and shift your focus to acting on information rather than compiling it. Start with prebuilt models or create custom models tailored to your documents both on premises and in the cloud with the Al Document Intelligence studio or SDK.",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "50",
+                  "textBlock": {
+                    "text": "Learn how to accelerate your business processes by automating text extraction with Al Document Intelligence. This webinar features hands-on demos for key use cases such as document processing, knowledge mining, and industry-specific Al model customization.",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "51",
+                  "textBlock": {
+                    "text": "This is the footer of the document.",
+                    "type": "paragraph"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }, {
+                  "blockId": "52",
+                  "textBlock": {
+                    "text": "1 | Page",
+                    "type": "footer"
+                  },
+                  "pageSpan": {
+                    "pageStart": 1,
+                    "pageEnd": 1
+                  }
+                }]
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              }
+            }]
+          },
+          "pageSpan": {
+            "pageStart": 1,
+            "pageEnd": 1
+          }
+        }]
+      },
+      "pageSpan": {
+        "pageStart": 1,
+        "pageEnd": 1
+      }
+    }]
+  }
+}

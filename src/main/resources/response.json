@@ -1,0 +1,610 @@
+blocks {
+  block_id: "1"
+  text_block {
+  text: "This is the header of the document."
+  type: "paragraph"
+}
+page_span {
+  page_start: 1
+  page_end: 1
+}
+}
+blocks {
+block_id: "2"
+text_block {
+text: "This is title"
+type: "heading-1"
+blocks {
+block_id: "3"
+text_block {
+text: "3. Others"
+type: "heading-2"
+blocks {
+block_id: "4"
+text_block {
+text: "1. Text"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "5"
+text_block {
+text: "Latin refers to an ancient Italic language originating in the region of Latium in ancient Rome."
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "6"
+text_block {
+text: "Al Document Intelligence is an Al service that applies advanced machine learning to extract text, key-value pairs, tables, and structures from documents automatically and accurately:"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "7"
+text_block {
+text: "2. Page Objects"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "8"
+text_block {
+text: "clear"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "9"
+text_block {
+text: "2.1 Table"
+type: "heading-3"
+blocks {
+block_id: "10"
+text_block {
+text: "precise"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "11"
+text_block {
+text: "Here\'s a sample table below, designed to"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "12"
+text_block {
+text: "vague"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "13"
+text_block {
+text: "be simple for easy understand and quick"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "14"
+text_block {
+text: "coherent"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "15"
+text_block {
+text: "reference."
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "16"
+table_block {
+body_rows {
+cells {
+blocks {
+block_id: "17"
+text_block {
+text: "Name"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+row_span: 1
+col_span: 1
+}
+cells {
+blocks {
+block_id: "18"
+text_block {
+text: "Corp"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+row_span: 1
+col_span: 1
+}
+cells {
+blocks {
+block_id: "19"
+text_block {
+text: "Remark"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+row_span: 1
+col_span: 1
+}
+}
+body_rows {
+cells {
+blocks {
+block_id: "20"
+text_block {
+text: "Foo"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+row_span: 1
+col_span: 1
+}
+cells {
+blocks {
+block_id: "21"
+text_block {
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+row_span: 1
+col_span: 1
+}
+cells {
+blocks {
+block_id: "22"
+text_block {
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+row_span: 1
+col_span: 1
+}
+}
+body_rows {
+cells {
+blocks {
+block_id: "23"
+text_block {
+text: "Bar"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+row_span: 1
+col_span: 1
+}
+cells {
+blocks {
+block_id: "24"
+text_block {
+text: "Microsoft"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+row_span: 1
+col_span: 1
+}
+cells {
+blocks {
+block_id: "25"
+text_block {
+text: "Dummy"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+row_span: 1
+col_span: 1
+}
+}
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "26"
+text_block {
+text: "Table 1: This is a dummy table"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "27"
+text_block {
+text: "2.2. Figure"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "28"
+text_block {
+text: "Values 500"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "29"
+text_block {
+text: "400"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "30"
+text_block {
+text: "300"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "31"
+text_block {
+text: "Figure 1: Here is a figure with text"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "32"
+text_block {
+text: "200"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "33"
+text_block {
+text: "200"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "34"
+text_block {
+text: "100"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "35"
+text_block {
+text: "300"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "36"
+text_block {
+text: "450"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "37"
+text_block {
+text: "400"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "38"
+text_block {
+text: "350"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "39"
+text_block {
+text: "250"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "40"
+text_block {
+text: "0"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "41"
+text_block {
+text: "Jan"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "42"
+text_block {
+text: "Feb"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "43"
+text_block {
+text: "Mar"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "44"
+text_block {
+text: "Apr"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "45"
+text_block {
+text: "May"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "46"
+text_block {
+text: "Jun Months"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "47"
+text_block {
+text: "\342\230\221"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "48"
+text_block {
+text: "\342\230\220 Incomprehensible"
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "49"
+text_block {
+text: "Turn documents into usable data and shift your focus to acting on information rather than compiling it. Start with prebuilt models or create custom models tailored to your documents both on premises and in the cloud with the Al Document Intelligence studio or SDK."
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "50"
+text_block {
+text: "Learn how to accelerate your business processes by automating text extraction with Al Document Intelligence. This webinar features hands-on demos for key use cases such as document processing, knowledge mining, and industry-specific Al model customization."
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "51"
+text_block {
+text: "This is the footer of the document."
+type: "paragraph"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+blocks {
+block_id: "52"
+text_block {
+text: "1 | Page"
+type: "footer"
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
+}
+page_span {
+page_start: 1
+page_end: 1
+}
+}
