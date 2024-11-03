@@ -1,4 +1,4 @@
-package dev.fusion;
+package dev.fusion.v1;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

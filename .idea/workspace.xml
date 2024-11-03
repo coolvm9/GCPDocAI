@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baa583a3-3753-492a-8015-4afdbb4b3ff3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/results/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAILayoutProcessorSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAILayoutProcessorSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/v1beta3/GCPDocAILayoutProcessorSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAILayoutProcessorSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/v1/GCPDocAILayoutProcessorSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAIOCRProcessorSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/v1/GCPDocAIOCRProcessorSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fusion/JSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/v1/JSONParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
     "Gradle.GCPDocAI [:DocumentAiExample.main()].executor": "Debug",
     "Gradle.GCPDocAI [:DocumentLayoutParser.main()].executor": "Run",
     "Gradle.GCPDocAI [:GCPDocAILayoutProcessorSample.main()].executor": "Run",
-    "Gradle.GCPDocAI [:GCPDocAIOCRProcessorSample.main()].executor": "Run",
+    "Gradle.GCPDocAI [:GCPDocAIOCRProcessorSample.main()].executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.google.cloudcode.ide_session_index": "20241102_0000",
     "git-widget-placeholder": "main",
@@ -63,6 +65,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.fusion.v1beta3" />
       <recent name="dev.fusion" />
     </key>
   </component>
@@ -81,9 +84,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAIOCRProcessorSample.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/dev/fusion/v1/GCPDocAIOCRProcessorSample.java</url>
           <line>57</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/fusion/v1/GCPDocAIOCRProcessorSample.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/fusion/v1beta3/GCPDocAILayoutProcessorSample.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

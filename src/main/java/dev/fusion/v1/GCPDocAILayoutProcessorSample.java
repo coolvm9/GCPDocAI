@@ -1,4 +1,4 @@
-package dev.fusion;
+package dev.fusion.v1;
 
 import com.google.cloud.documentai.v1.*;
 import com.google.protobuf.ByteString;

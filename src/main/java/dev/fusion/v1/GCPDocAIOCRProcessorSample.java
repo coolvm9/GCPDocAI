@@ -1,4 +1,4 @@
-package dev.fusion;
+package dev.fusion.v1;
 
 import com.google.cloud.documentai.v1.*;
 import com.google.protobuf.ByteString;
@@ -58,7 +58,7 @@ public class GCPDocAIOCRProcessorSample {
             for (Document.Page page : document.getPagesList()) {
                 System.out.println("Page Number: " + page.getPageNumber());
                 for (Document.Page.Block block : page.getBlocksList()) {
-                    System.out.println("Block Text: " + block.getLayout().getTextAnchor().getContent());
+                    System.out.println("Block Text: " + block.toString());
                     System.out.println("Confidence: " + block.getLayout().getConfidence());
                 }
             }
