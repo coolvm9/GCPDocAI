@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baa583a3-3753-492a-8015-4afdbb4b3ff3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/v1beta3/GCPDocAILayoutProcessorSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAILayoutProcessorSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/v1/GCPDocAILayoutProcessorSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fusion/GCPDocAIOCRProcessorSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/v1/GCPDocAIOCRProcessorSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/fusion/JSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/fusion/v1/JSONParser.java" afterDir="false" />
-    </list>
+    <list default="true" id="baa583a3-3753-492a-8015-4afdbb4b3ff3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2oKG4bm5e7eoCO3bhjhrXdCuzs4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,7 +43,7 @@
     "Gradle.GCPDocAI [:GCPDocAILayoutProcessorSample.main()].executor": "Run",
     "Gradle.GCPDocAI [:GCPDocAIOCRProcessorSample.main()].executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20241102_0000",
+    "com.google.cloudcode.ide_session_index": "20241103_0001",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/satyaanumolu/POCs/langchain4j_tutorials/GCPDocAI/src/main/resources/results"
