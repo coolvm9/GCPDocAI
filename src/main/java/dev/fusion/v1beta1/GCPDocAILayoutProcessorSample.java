@@ -1,6 +1,6 @@
-package dev.fusion.v1beta3;
+package dev.fusion.v1beta1;
 
-import com.google.cloud.documentai.v1beta3.*;
+import com.google.cloud.documentai.v1.*;
 import com.google.protobuf.ByteString;
 
 import java.io.File;
@@ -26,7 +26,7 @@ public class GCPDocAILayoutProcessorSample {
         Document document = processDocument(pdfBytes, projectId, location, processorId,chunkSize);
         System.out.println("Document Text: " + document.getDocumentLayout());
         document.getShardInfo();
-
+        
 
         if (document.hasDocumentLayout()) {
             System.out.println("Document Layout Info:");

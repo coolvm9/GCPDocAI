@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "documentLayout": {
+      "type": "object",
+      "properties": {
+        "blocks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "blockId": { "type": "string" },
+              "textBlock": {
+                "type": "object",
+                "properties": {
+                  "text": { "type": "string" },
+                  "type": { "type": "string" }
+                },
+                "required": ["text", "type"]
+              },
+              "pageSpan": {
+                "type": "object",
+                "properties": {
+                  "pageStart": { "type": "integer" },
+                  "pageEnd": { "type": "integer" }
+                },
+                "required": ["pageStart", "pageEnd"]
+              },
+              "blocks": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "blockId": { "type": "string" },
+                    "textBlock": {
+                      "type": "object",
+                      "properties": {
+                        "text": { "type": "string" },
+                        "type": { "type": "string" }
+                      },
+                      "required": ["text", "type"]
+                    },
+                    "pageSpan": {
+                      "type": "object",
+                      "properties": {
+                        "pageStart": { "type": "integer" },
+                        "pageEnd": { "type": "integer" }
+                      },
+                      "required": ["pageStart", "pageEnd"]
+                    },
+                    "tableBlock": {
+                      "type": "object",
+                      "properties": {
+                        "bodyRows": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "cells": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "blocks": {
+                                      "type": "array",
+                                      "items": {
+                                        "type": "object",
+                                        "properties": {
+                                          "blockId": { "type": "string" },
+                                          "textBlock": {
+                                            "type": "object",
+                                            "properties": {
+                                              "text": { "type": "string" },
+                                              "type": { "type": "string" }
+                                            },
+                                            "required": ["type"]
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "rowSpan": { "type": "integer" },
+                                    "colSpan": { "type": "integer" }
+                                  },
+                                  "required": ["blocks", "rowSpan", "colSpan"]
+                                }
+                              }
+                            },
+                            "required": ["cells"]
+                          }
+                        }
+                      },
+                      "required": ["bodyRows"]
+                    }
+                  },
+                  "required": ["blockId", "textBlock", "pageSpan"]
+                }
+              }
+            },
+            "required": ["blockId", "textBlock", "pageSpan"]
+          }
+        }
+      },
+      "required": ["blocks"]
+    }
+  },
+  "required": ["documentLayout"]
+}

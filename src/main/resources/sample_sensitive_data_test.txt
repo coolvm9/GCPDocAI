@@ -1,0 +1,42 @@
+Welcome to the Sensitive Data Protection Demo. This technology powers Cloud Sensitive Data Protection, Workspace DLP, and BeyondCorp DLP.
+
+Type or paste text here to inspect the content. Findings appear below.
+
+For example, strings like this one produce a PHONE_NUMBER finding:
+    "Please call me. My phone number is (555) 253-0000."
+
+Customizing:
+To choose classification categories, click "infoTypes" on the right.
+
+Findings are bucketized under one of the likelihood representations below:
+    VERY_UNLIKELY
+    UNLIKELY
+    POSSIBLE
+    LIKELY
+    VERY_LIKELY
+
+Findings below LIKELY may introduce noise in the results, especially
+when a particular string matches multiple infoTypes. To limit the
+amount of noisy findings, select "Likely and above only" on the right.
+The tags (Low) (Medium) (High) are also included to indicate the
+thresholds used in Workspace.
+
+More examples:
+    Email address: foo@example.com
+    Credit card number: 4012-8888-8888-1881
+    National Provider Identifier: 1245319599
+    Driver's license: AC333991
+
+To show or hide this text, select "Welcome text" on the right.
+
+For a list of all the infoTypes available in the Cloud DLP API visit:
+https://cloud.google.com/sensitive-data-protection/docs/infotypes-reference
+
+Note: This demo does not represent a final product from Google,
+and we make no warranty of any kind. Errors may occur. You are solely
+responsible for any action you may take in reliance on this demo.
+
+Data that you submit to the demo will remain in the browser until you close
+it. For classification, the data is sent to our API, which retains data only
+for processing and does not store data on persistent media. We may compile
+aggregate data, but such data is not associated with any particular user.
